@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('https://media.formula1.com/image/upload/content/dam/fom-website/sutton/2022/Bahrain/Sunday/1386703905.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #333;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 20px;
+  border-radius: 10px;
+  display: block;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px auto;
+  max-width: 1200px;
+  text-align: center;
+}
+
+.box {
+  display: inline-block;
+  border: 2px solid #333;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  width: 200px;
+  background-color: #fff;
+  color: #333;
+}
